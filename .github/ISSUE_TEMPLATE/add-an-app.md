@@ -8,6 +8,7 @@ assignees: ''
 ---
 
 ## Schema
-<!-- paste schema of your app here -->
+<!-- Make schema of your app based on readme -->
 ```yaml
+Paste it here
 ```
