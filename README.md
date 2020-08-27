@@ -22,7 +22,7 @@ List of foss PWAs for use in foss-pwa app store
 The yaml representation of the app should have following structure:
 
 ```yaml
-id: foss_pwa_app_store # your app name. must be unique, and contain only [0-9a-zA-Z_]
+id: foss_pwa_app_store # your app name. must be unique, and contain only [0-9a-z_]
 source: # MANDATORY
   # if it is on github:
   type: github
@@ -48,3 +48,7 @@ lang: # MANDATORY, main part, place of (possibly) localized contents
     keyword:
       - برنامه
 ```
+
+## Maintainer
+We need maintainer. Call me on mastodon (https://norden.social/@hamid) if you are volunteer.
+
