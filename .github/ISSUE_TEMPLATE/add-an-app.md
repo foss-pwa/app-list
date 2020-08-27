@@ -2,7 +2,7 @@
 name: Add an app
 about: Add an app to app list.
 title: "[ADD APP] Your app title"
-labels: ''
+labels: app:add
 assignees: ''
 
 ---
