@@ -66,3 +66,14 @@ data:
     lang:
       en:
         manifest: https://webassembly.sh/manifest.json
+  - id: yahtzee
+    cs: 2
+    source:
+      type: github
+      repository: zpix1/yahtzee
+    category:
+      - game
+    lang:
+      en:
+        manifest: https://zpix1.github.io/yahtzee/static/manifest.json
+  
