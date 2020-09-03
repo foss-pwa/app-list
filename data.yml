@@ -1,7 +1,7 @@
 version: 1
 data:
   - id: breaklock
-    cs: 1
+    cs: 4
     source:
       type: github
       repository: maxwellito/breaklock
@@ -9,7 +9,7 @@ data:
       - game
     lang:
       en:
-        manifest: https://maxwellito.github.io/breaklock/manifest.json
+        manifest: https://maxwellito.github.io/breaklock/en/manifest.json
       fa:
         manifest: https://maxwellito.github.io/breaklock/fa/manifest.json
   - id: pacman
@@ -43,7 +43,28 @@ data:
     lang:
       en:
         manifest: https://qrcodescan.in/manifest.json
-
+  - id: react_music_playlist
+    cs: 4
+    antifeature:
+      - nfbackend
+    category:
+      - music
+    source:
+      type: github
+      repository: iondrimba/pwa-music-player
+    lang:
+      en:
+        manifest: https://playlist.iondrimbafilho.me/manifest.json
+  - id: sounddrown
+    cs: 1
+    source:
+      type: github
+      repository: petele/SoundDrown
+    category:
+      - music
+    lang:
+      en:
+        manifest: https://sounddrown.app/manifest.json
   - id: telegram
     cs: 1
     antifeature:
@@ -56,16 +77,6 @@ data:
     lang:
       en:
         manifest: https://zhukov.github.io/webogram/manifest.webapp.json
-  - id: sounddrown
-    cs: 1
-    source:
-      type: github
-      repository: petele/SoundDrown
-    category:
-      - music
-    lang:
-      en:
-        manifest: https://sounddrown.app/manifest.json
   - id: webassembly_sh
     cs: 1
     source:
