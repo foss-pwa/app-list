@@ -65,6 +65,16 @@ data:
     lang:
       en:
         manifest: https://playlist.iondrimbafilho.me/manifest.json
+  - id: sengi
+    cs: 6
+    source:
+      type: github
+      repository: NicolasConstant/sengi
+    category:
+      - social
+    lang:
+      en:
+        manifest: http://sengi.nicolas-constant.com/manifest.json
   - id: sounddrown
     cs: 1
     source:
